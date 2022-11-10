@@ -32,18 +32,22 @@
         .auto-style7 {
             height: 382px;
         }
+        .auto-style8 {
+            color: #0000FF;
+        }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <table class="auto-style1">
         <tr>
-            <td class="auto-style2" colspan="2">PACIENTES<br />
+            <td class="auto-style2" colspan="2"><span class="auto-style8">PACIENTES </span><br />
                 <br />
                 <img alt="" class="auto-style3" src="Imagenes/Imagen_Paciente.png" /></td>
         </tr>
         <tr>
             <td class="auto-style6">
+                <br />
                 <br />
                 <br />
                 <asp:Button ID="BConsultar" runat="server" Text="Consultar por Cedula" OnClick="BConsultar_Click" />
